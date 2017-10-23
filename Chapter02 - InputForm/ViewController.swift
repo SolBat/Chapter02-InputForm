@@ -62,7 +62,7 @@ class ViewController: UIViewController {
         // 스위치
         self.paramUpdate = UISwitch()
         self.paramUpdate.frame = CGRect(x: 120, y: 150, width: 50, height: 30)
-        self.paramUpdate.setOn(true, animated: true)
+        self.paramUpdate.setOn(true, animated: true) // 기본값 설정
         
         self.view.addSubview(self.paramUpdate)
         
@@ -104,7 +104,7 @@ class ViewController: UIViewController {
         self.navigationItem.rightBarButtonItem = submitBtn
         
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

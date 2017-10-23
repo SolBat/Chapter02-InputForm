@@ -17,7 +17,7 @@ class ReadViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        // 첫 화면 배경색을 하얀색으로 하지 않으면 검정색으로 출력 된다. 반드시 색상을 선택해주도록 하자
         self.view.backgroundColor = UIColor.white
         
         let email = UILabel()
